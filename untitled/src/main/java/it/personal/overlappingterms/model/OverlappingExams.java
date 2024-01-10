@@ -10,6 +10,34 @@ public class OverlappingExams {
     private Integer year;
     private boolean sameSemester;
 
+    public String getFirstOverlappingCourse() {
+        return firstOverlappingCourse;
+    }
+
+    public boolean isFirstCourseMandatory() {
+        return firstCourseMandatory;
+    }
+
+    public String getSecondOverlappingCourse() {
+        return secondOverlappingCourse;
+    }
+
+    public boolean isSecondCourseMandatory() {
+        return secondCourseMandatory;
+    }
+
+    public long getDaysOfDistanceBetweenCalls() {
+        return daysOfDistanceBetweenCalls;
+    }
+
+    public Integer getYear() {
+        return year;
+    }
+
+    public boolean isSameSemester() {
+        return sameSemester;
+    }
+
     public OverlappingExams(String firstOverlappingCourse,
                             boolean firstCourseMandatory,
                             String secondOverlappingCourse,
@@ -28,14 +56,15 @@ public class OverlappingExams {
 
     @Override
     public String toString() {
-        return "OverlappingExams {" +
-                "firstOverlappingCourse='" + firstOverlappingCourse + '\'' +
-                ", firstCourseMandatory=" + firstCourseMandatory +
-                ", secondOverlappingCourse='" + secondOverlappingCourse + '\'' +
-                ", secondCourseMandatory=" + secondCourseMandatory +
-                ", daysOfDistanceBetweenCalls=" + daysOfDistanceBetweenCalls +
-                ", year=" + year +
-                ", sameSemester=" + sameSemester +
-                '}';
+        return "{ " +
+                firstOverlappingCourse +
+                (firstCourseMandatory ? " (mandatory)" : "") +
+                " & " +
+                secondOverlappingCourse +
+                (secondCourseMandatory ? " (mandatory)" : "") +
+                ": days of distance = " + daysOfDistanceBetweenCalls +
+                ", year = "  + year +
+                ", " + (sameSemester ? "Same semester" : "Different semesters") + " }";
+
     }
 }

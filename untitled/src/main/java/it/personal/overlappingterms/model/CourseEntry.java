@@ -10,29 +10,42 @@ import java.util.List;
  * a set of dates that are the exam terms for the course.
  */
 public class CourseEntry {
-    private String courseName;
+    private final String courseName;
     private Integer courseYear;
-    private Integer courseSemester;
-    private boolean isMandatory;
-    private List<LocalDate> examTermsDates;
+    private final Integer courseSemester;
+    private final boolean isMandatory;
+    private final List<LocalDate> examTermsDates;
 
-    // Differentiate the courses per year.
+    /**
+     * Creates an entry for a course.
+     * @param courseName Course name.
+     * @param courseSemester Semester of the course.
+     * @param isMandatory true if the course is mandatory, false otherwise.
+     * @param examTermsDates Dates for the exam calls.
+     */
+    public CourseEntry (String courseName, Integer courseSemester, boolean isMandatory, List<LocalDate> examTermsDates) {
+        this.courseName = courseName;
+        this.courseSemester = courseSemester;
+        this.isMandatory = isMandatory;
+        this.examTermsDates = examTermsDates;
+    }
+
+    /**
+     * Creates an entry for a course, specifying also the year of the course.
+     * @param courseName Course name.
+     * @param courseYear Year of the course.
+     * @param courseSemester Semester of the course.
+     * @param isMandatory true if the course is mandatory, false otherwise.
+     * @param examTermsDates Dates for the exam calls.
+     */
     public CourseEntry(String courseName, Integer courseYear, Integer courseSemester, boolean isMandatory, List<LocalDate> examTermsDates) {
-        this.courseName = courseName;
+        this(courseName, courseSemester, isMandatory, examTermsDates);
         this.courseYear = courseYear;
-        this.courseSemester = courseSemester;
-        this.isMandatory = isMandatory;
-        this.examTermsDates = examTermsDates;
     }
 
-    // Year is not asked
-    public CourseEntry(String courseName, Integer courseSemester, boolean isMandatory, List<LocalDate> examTermsDates) {
-        this.courseName = courseName;
-        this.courseSemester = courseSemester;
-        this.isMandatory = isMandatory;
-        this.examTermsDates = examTermsDates;
-    }
-
+    /**
+     * @return the course name.
+     */
     public String getCourseName() {
         return courseName;
     }
