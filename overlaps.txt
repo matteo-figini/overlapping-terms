@@ -1,0 +1,62 @@
+{ ELETTROTECNICA (mandatory) & FONDAMENTI DI INFORMATICA (mandatory): days of distance = 2, year = 1, Different semesters }
+{ ALGORITMI E PRINCIPI DELL'INFORMATICA (mandatory) & ANALISI MATEMATICA 2 (mandatory): days of distance = 1, year = 2, Different semesters }
+{ CHIMICA GENERALE & MISURE: days of distance = 1, year = 2, Same semester }
+{ FONDAMENTI DI AUTOMATICA (mandatory) & ONDE ELETTROMAGNETICHE E MEZZI TRASMISSIVI: days of distance = 1, year = 2, Different semesters }
+{ LOGICA E ALGEBRA (mandatory) & ARCHITETTURA DEI CALCOLATORI E SISTEMI OPERATIVI (mandatory): days of distance = 2, year = 2, Same semester }
+{ ALGORITMI E PRINCIPI DELL'INFORMATICA (mandatory) & ARCHITETTURA DEI CALCOLATORI E SISTEMI OPERATIVI (mandatory): days of distance = 2, year = 2, Different semesters }
+{ ANALISI MATEMATICA 2 (mandatory) & ONDE ELETTROMAGNETICHE E MEZZI TRASMISSIVI: days of distance = 2, year = 2, Same semester }
+{ LOGICA E ALGEBRA (mandatory) & CHIMICA GENERALE: days of distance = 2, year = 2, Same semester }
+{ SICUREZZA DELLE RETI & SEGNALI PER LE COMUNICAZIONI: days of distance = 0, year = 3, Same semester }
+{ FISICA TECNICA & FONDAMENTI DI HUMAN-COMPUTER INTERACTION: days of distance = 0, year = 3, Different semesters }
+{ MECCANICA & FONDAMENTI DI ELETTRONICA (mandatory): days of distance = 0, year = 3, Different semesters }
+{ AUTOMAZIONE INDUSTRIALE & FONDAMENTI DI ELETTRONICA (mandatory): days of distance = 0, year = 3, Different semesters }
+{ INTRODUZIONE TECN. INTERCONNESSIONE & SEGNALI PER LE COMUNICAZIONI: days of distance = 0, year = 3, Same semester }
+{ PROBLEMI INVERSI APPL. TELERILEV. & FONDAMENTI DI HUMAN-COMPUTER INTERACTION: days of distance = 0, year = 3, Different semesters }
+{ ECONOMIA E ORGANIZZAZIONE AZIENDALE (mandatory) & SICUREZZA DELLE RETI: days of distance = 1, year = 3, Same semester }
+{ ECONOMIA E ORGANIZZAZIONE AZIENDALE (mandatory) & SEGNALI PER LE COMUNICAZIONI: days of distance = 1, year = 3, Same semester }
+{ BIOINFORMATICS ALGORITHMS & MECCANICA: days of distance = 1, year = 3, Same semester }
+{ BIOINFORMATICS ALGORITHMS & FONDAMENTI DI ELETTRONICA (mandatory): days of distance = 1, year = 3, Different semesters }
+{ SICUREZZA DELLE RETI & RETI LOGICHE (mandatory): days of distance = 1, year = 3, Different semesters }
+{ AUTOMAZIONE INDUSTRIALE & MECCANICA: days of distance = 1, year = 3, Same semester }
+{ AUTOMAZIONE INDUSTRIALE & FONDAMENTI DI ELETTRONICA (mandatory): days of distance = 1, year = 3, Different semesters }
+{ FISICA TECNICA & DISP. PER LA TRASMISSIONE INF.: days of distance = 1, year = 3, Same semester }
+{ DISP. PER LA TRASMISSIONE INF. & PROBLEMI INVERSI APPL. TELERILEV.: days of distance = 1, year = 3, Same semester }
+{ DISP. PER LA TRASMISSIONE INF. & FONDAMENTI DI HUMAN-COMPUTER INTERACTION: days of distance = 1, year = 3, Different semesters }
+{ INTRODUZIONE TECN. INTERCONNESSIONE & SOFTWARE DEFINED NETWORKING: days of distance = 1, year = 3, Same semester }
+{ INTRODUZIONE TECN. INTERCONNESSIONE & RETI LOGICHE (mandatory): days of distance = 1, year = 3, Different semesters }
+{ OTTICA E IMMAGINI & INGEGNERIA DEL SOFTWARE (mandatory): days of distance = 1, year = 3, Different semesters }
+{ PROBLEMI INVERSI APPL. TELERILEV. & INGEGNERIA DEL SOFTWARE (mandatory): days of distance = 1, year = 3, Different semesters }
+{ SEGNALI PER LE COMUNICAZIONI & RETI LOGICHE (mandatory): days of distance = 1, year = 3, Different semesters }
+{ BIOINFORMATICS ALGORITHMS & AUTOMAZIONE INDUSTRIALE: days of distance = 1, year = 3, Same semester }
+{ BIOINFORMATICS ALGORITHMS & SOFTWARE DEFINED NETWORKING: days of distance = 1, year = 3, Same semester }
+{ BIOINFORMATICS ALGORITHMS & FONDAMENTI DI ELETTRONICA (mandatory): days of distance = 1, year = 3, Different semesters }
+{ SICUREZZA DELLE RETI & FISICA TECNICA: days of distance = 1, year = 3, Same semester }
+{ SICUREZZA DELLE RETI & SISTEMI INFORMATIVI (PER IL SETTORE DELL'INFORMAZIONE) (mandatory): days of distance = 1, year = 3, Different semesters }
+{ AUTOMAZIONE INDUSTRIALE & MECCANICA: days of distance = 1, year = 3, Same semester }
+{ MECCANICA & FONDAMENTI DI ELETTRONICA (mandatory): days of distance = 1, year = 3, Different semesters }
+{ DISP. PER LA TRASMISSIONE INF. & OTTICA E IMMAGINI: days of distance = 1, year = 3, Same semester }
+{ DISP. PER LA TRASMISSIONE INF. & BASI DI DATI 1 (mandatory): days of distance = 1, year = 3, Different semesters }
+{ OTTICA E IMMAGINI & INGEGNERIA DEL SOFTWARE (mandatory): days of distance = 1, year = 3, Different semesters }
+{ PROBLEMI INVERSI APPL. TELERILEV. & SOFTWARE DEFINED NETWORKING: days of distance = 1, year = 3, Same semester }
+{ SOFTWARE DEFINED NETWORKING & FONDAMENTI DI HUMAN-COMPUTER INTERACTION: days of distance = 1, year = 3, Different semesters }
+{ ECONOMIA E ORGANIZZAZIONE AZIENDALE (mandatory) & RETI LOGICHE (mandatory): days of distance = 2, year = 3, Different semesters }
+{ BIOINFORMATICS ALGORITHMS & AUTOMAZIONE INDUSTRIALE: days of distance = 2, year = 3, Same semester }
+{ SICUREZZA DELLE RETI & INTRODUZIONE TECN. INTERCONNESSIONE: days of distance = 2, year = 3, Same semester }
+{ AUTOMAZIONE INDUSTRIALE & SISTEMI INFORMATIVI (PER IL SETTORE DELL'INFORMAZIONE) (mandatory): days of distance = 2, year = 3, Different semesters }
+{ FISICA TECNICA & PROBLEMI INVERSI APPL. TELERILEV.: days of distance = 2, year = 3, Same semester }
+{ DISP. PER LA TRASMISSIONE INF. & INGEGNERIA DEL SOFTWARE (mandatory): days of distance = 2, year = 3, Different semesters }
+{ INTRODUZIONE TECN. INTERCONNESSIONE & SEGNALI PER LE COMUNICAZIONI: days of distance = 2, year = 3, Same semester }
+{ OTTICA E IMMAGINI & PROBLEMI INVERSI APPL. TELERILEV.: days of distance = 2, year = 3, Same semester }
+{ PROBLEMI INVERSI APPL. TELERILEV. & FONDAMENTI DI HUMAN-COMPUTER INTERACTION: days of distance = 2, year = 3, Different semesters }
+{ SOFTWARE DEFINED NETWORKING & RETI LOGICHE (mandatory): days of distance = 2, year = 3, Different semesters }
+{ ECONOMIA E ORGANIZZAZIONE AZIENDALE (mandatory) & RETI LOGICHE (mandatory): days of distance = 2, year = 3, Different semesters }
+{ BIOINFORMATICS ALGORITHMS & MECCANICA: days of distance = 2, year = 3, Same semester }
+{ BIOINFORMATICS ALGORITHMS & PROBLEMI INVERSI APPL. TELERILEV.: days of distance = 2, year = 3, Same semester }
+{ BIOINFORMATICS ALGORITHMS & FONDAMENTI DI HUMAN-COMPUTER INTERACTION: days of distance = 2, year = 3, Different semesters }
+{ AUTOMAZIONE INDUSTRIALE & SOFTWARE DEFINED NETWORKING: days of distance = 2, year = 3, Same semester }
+{ FISICA TECNICA & SISTEMI INFORMATIVI (PER IL SETTORE DELL'INFORMAZIONE) (mandatory): days of distance = 2, year = 3, Different semesters }
+{ DISP. PER LA TRASMISSIONE INF. & INGEGNERIA DEL SOFTWARE (mandatory): days of distance = 2, year = 3, Different semesters }
+{ INTRODUZIONE TECN. INTERCONNESSIONE & SISTEMI INFORMATIVI (PER IL SETTORE DELL'INFORMAZIONE) (mandatory): days of distance = 2, year = 3, Different semesters }
+{ OTTICA E IMMAGINI & BASI DI DATI 1 (mandatory): days of distance = 2, year = 3, Different semesters }
+{ SEGNALI PER LE COMUNICAZIONI & SISTEMI INFORMATIVI (PER IL SETTORE DELL'INFORMAZIONE) (mandatory): days of distance = 2, year = 3, Different semesters }
+{ SOFTWARE DEFINED NETWORKING & FONDAMENTI DI ELETTRONICA (mandatory): days of distance = 2, year = 3, Different semesters }
