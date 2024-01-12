@@ -1,62 +1,37 @@
-{ ELETTROTECNICA (mandatory) & FONDAMENTI DI INFORMATICA (mandatory): days of distance = 2, year = 1, Different semesters }
-{ ALGORITMI E PRINCIPI DELL'INFORMATICA (mandatory) & ANALISI MATEMATICA 2 (mandatory): days of distance = 1, year = 2, Different semesters }
-{ CHIMICA GENERALE & MISURE: days of distance = 1, year = 2, Same semester }
-{ FONDAMENTI DI AUTOMATICA (mandatory) & ONDE ELETTROMAGNETICHE E MEZZI TRASMISSIVI: days of distance = 1, year = 2, Different semesters }
-{ LOGICA E ALGEBRA (mandatory) & ARCHITETTURA DEI CALCOLATORI E SISTEMI OPERATIVI (mandatory): days of distance = 2, year = 2, Same semester }
-{ ALGORITMI E PRINCIPI DELL'INFORMATICA (mandatory) & ARCHITETTURA DEI CALCOLATORI E SISTEMI OPERATIVI (mandatory): days of distance = 2, year = 2, Different semesters }
-{ ANALISI MATEMATICA 2 (mandatory) & ONDE ELETTROMAGNETICHE E MEZZI TRASMISSIVI: days of distance = 2, year = 2, Same semester }
-{ LOGICA E ALGEBRA (mandatory) & CHIMICA GENERALE: days of distance = 2, year = 2, Same semester }
-{ SICUREZZA DELLE RETI & SEGNALI PER LE COMUNICAZIONI: days of distance = 0, year = 3, Same semester }
-{ FISICA TECNICA & FONDAMENTI DI HUMAN-COMPUTER INTERACTION: days of distance = 0, year = 3, Different semesters }
-{ MECCANICA & FONDAMENTI DI ELETTRONICA (mandatory): days of distance = 0, year = 3, Different semesters }
-{ AUTOMAZIONE INDUSTRIALE & FONDAMENTI DI ELETTRONICA (mandatory): days of distance = 0, year = 3, Different semesters }
-{ INTRODUZIONE TECN. INTERCONNESSIONE & SEGNALI PER LE COMUNICAZIONI: days of distance = 0, year = 3, Same semester }
-{ PROBLEMI INVERSI APPL. TELERILEV. & FONDAMENTI DI HUMAN-COMPUTER INTERACTION: days of distance = 0, year = 3, Different semesters }
-{ ECONOMIA E ORGANIZZAZIONE AZIENDALE (mandatory) & SICUREZZA DELLE RETI: days of distance = 1, year = 3, Same semester }
-{ ECONOMIA E ORGANIZZAZIONE AZIENDALE (mandatory) & SEGNALI PER LE COMUNICAZIONI: days of distance = 1, year = 3, Same semester }
-{ BIOINFORMATICS ALGORITHMS & MECCANICA: days of distance = 1, year = 3, Same semester }
-{ BIOINFORMATICS ALGORITHMS & FONDAMENTI DI ELETTRONICA (mandatory): days of distance = 1, year = 3, Different semesters }
-{ SICUREZZA DELLE RETI & RETI LOGICHE (mandatory): days of distance = 1, year = 3, Different semesters }
-{ AUTOMAZIONE INDUSTRIALE & MECCANICA: days of distance = 1, year = 3, Same semester }
-{ AUTOMAZIONE INDUSTRIALE & FONDAMENTI DI ELETTRONICA (mandatory): days of distance = 1, year = 3, Different semesters }
-{ FISICA TECNICA & DISP. PER LA TRASMISSIONE INF.: days of distance = 1, year = 3, Same semester }
-{ DISP. PER LA TRASMISSIONE INF. & PROBLEMI INVERSI APPL. TELERILEV.: days of distance = 1, year = 3, Same semester }
-{ DISP. PER LA TRASMISSIONE INF. & FONDAMENTI DI HUMAN-COMPUTER INTERACTION: days of distance = 1, year = 3, Different semesters }
-{ INTRODUZIONE TECN. INTERCONNESSIONE & SOFTWARE DEFINED NETWORKING: days of distance = 1, year = 3, Same semester }
-{ INTRODUZIONE TECN. INTERCONNESSIONE & RETI LOGICHE (mandatory): days of distance = 1, year = 3, Different semesters }
-{ OTTICA E IMMAGINI & INGEGNERIA DEL SOFTWARE (mandatory): days of distance = 1, year = 3, Different semesters }
-{ PROBLEMI INVERSI APPL. TELERILEV. & INGEGNERIA DEL SOFTWARE (mandatory): days of distance = 1, year = 3, Different semesters }
-{ SEGNALI PER LE COMUNICAZIONI & RETI LOGICHE (mandatory): days of distance = 1, year = 3, Different semesters }
-{ BIOINFORMATICS ALGORITHMS & AUTOMAZIONE INDUSTRIALE: days of distance = 1, year = 3, Same semester }
-{ BIOINFORMATICS ALGORITHMS & SOFTWARE DEFINED NETWORKING: days of distance = 1, year = 3, Same semester }
-{ BIOINFORMATICS ALGORITHMS & FONDAMENTI DI ELETTRONICA (mandatory): days of distance = 1, year = 3, Different semesters }
-{ SICUREZZA DELLE RETI & FISICA TECNICA: days of distance = 1, year = 3, Same semester }
-{ SICUREZZA DELLE RETI & SISTEMI INFORMATIVI (PER IL SETTORE DELL'INFORMAZIONE) (mandatory): days of distance = 1, year = 3, Different semesters }
-{ AUTOMAZIONE INDUSTRIALE & MECCANICA: days of distance = 1, year = 3, Same semester }
-{ MECCANICA & FONDAMENTI DI ELETTRONICA (mandatory): days of distance = 1, year = 3, Different semesters }
-{ DISP. PER LA TRASMISSIONE INF. & OTTICA E IMMAGINI: days of distance = 1, year = 3, Same semester }
-{ DISP. PER LA TRASMISSIONE INF. & BASI DI DATI 1 (mandatory): days of distance = 1, year = 3, Different semesters }
-{ OTTICA E IMMAGINI & INGEGNERIA DEL SOFTWARE (mandatory): days of distance = 1, year = 3, Different semesters }
-{ PROBLEMI INVERSI APPL. TELERILEV. & SOFTWARE DEFINED NETWORKING: days of distance = 1, year = 3, Same semester }
-{ SOFTWARE DEFINED NETWORKING & FONDAMENTI DI HUMAN-COMPUTER INTERACTION: days of distance = 1, year = 3, Different semesters }
-{ ECONOMIA E ORGANIZZAZIONE AZIENDALE (mandatory) & RETI LOGICHE (mandatory): days of distance = 2, year = 3, Different semesters }
-{ BIOINFORMATICS ALGORITHMS & AUTOMAZIONE INDUSTRIALE: days of distance = 2, year = 3, Same semester }
-{ SICUREZZA DELLE RETI & INTRODUZIONE TECN. INTERCONNESSIONE: days of distance = 2, year = 3, Same semester }
-{ AUTOMAZIONE INDUSTRIALE & SISTEMI INFORMATIVI (PER IL SETTORE DELL'INFORMAZIONE) (mandatory): days of distance = 2, year = 3, Different semesters }
-{ FISICA TECNICA & PROBLEMI INVERSI APPL. TELERILEV.: days of distance = 2, year = 3, Same semester }
-{ DISP. PER LA TRASMISSIONE INF. & INGEGNERIA DEL SOFTWARE (mandatory): days of distance = 2, year = 3, Different semesters }
-{ INTRODUZIONE TECN. INTERCONNESSIONE & SEGNALI PER LE COMUNICAZIONI: days of distance = 2, year = 3, Same semester }
-{ OTTICA E IMMAGINI & PROBLEMI INVERSI APPL. TELERILEV.: days of distance = 2, year = 3, Same semester }
-{ PROBLEMI INVERSI APPL. TELERILEV. & FONDAMENTI DI HUMAN-COMPUTER INTERACTION: days of distance = 2, year = 3, Different semesters }
-{ SOFTWARE DEFINED NETWORKING & RETI LOGICHE (mandatory): days of distance = 2, year = 3, Different semesters }
-{ ECONOMIA E ORGANIZZAZIONE AZIENDALE (mandatory) & RETI LOGICHE (mandatory): days of distance = 2, year = 3, Different semesters }
-{ BIOINFORMATICS ALGORITHMS & MECCANICA: days of distance = 2, year = 3, Same semester }
-{ BIOINFORMATICS ALGORITHMS & PROBLEMI INVERSI APPL. TELERILEV.: days of distance = 2, year = 3, Same semester }
-{ BIOINFORMATICS ALGORITHMS & FONDAMENTI DI HUMAN-COMPUTER INTERACTION: days of distance = 2, year = 3, Different semesters }
-{ AUTOMAZIONE INDUSTRIALE & SOFTWARE DEFINED NETWORKING: days of distance = 2, year = 3, Same semester }
-{ FISICA TECNICA & SISTEMI INFORMATIVI (PER IL SETTORE DELL'INFORMAZIONE) (mandatory): days of distance = 2, year = 3, Different semesters }
-{ DISP. PER LA TRASMISSIONE INF. & INGEGNERIA DEL SOFTWARE (mandatory): days of distance = 2, year = 3, Different semesters }
-{ INTRODUZIONE TECN. INTERCONNESSIONE & SISTEMI INFORMATIVI (PER IL SETTORE DELL'INFORMAZIONE) (mandatory): days of distance = 2, year = 3, Different semesters }
-{ OTTICA E IMMAGINI & BASI DI DATI 1 (mandatory): days of distance = 2, year = 3, Different semesters }
-{ SEGNALI PER LE COMUNICAZIONI & SISTEMI INFORMATIVI (PER IL SETTORE DELL'INFORMAZIONE) (mandatory): days of distance = 2, year = 3, Different semesters }
-{ SOFTWARE DEFINED NETWORKING & FONDAMENTI DI ELETTRONICA (mandatory): days of distance = 2, year = 3, Different semesters }
+{ 1° appello => [BASI DI DATI 1 (obbligatorio): 3° anno, 1° semestre, data: 2024-06-06 (F2)] & [FONDAMENTI DI ELABORAZIONE NUMERICA DEI SEGNALI: 3° anno, 1° semestre, data: 2024-06-07 (F2)] } 
+{ 1° appello => [LOGICA E ALGEBRA (obbligatorio): 2° anno, 1° semestre, data: 2024-06-06 (F3)] & [ARCHITETTURA DEI CALCOLATORI E SISTEMI OPERATIVI (obbligatorio): 2° anno, 1° semestre, data: 2024-06-08 (F1)] } 
+{ 1° appello => [OTTICA E IMMAGINI: 3° anno, 2° semestre, data: 2024-06-10 (F2)] & [PROBLEMI INVERSI APPLICATI AL TELERILEVAMENTO: 3° anno, 2° semestre, data: 2024-06-12 (F3)] } 
+{ 1° appello => [INGEGNERIA DEL SOFTWARE (obbligatorio): 3° anno, 1° semestre, data: 2024-06-11 (F1)] & [SISTEMI DI COMUNICAZIONE: 3° anno, 1° semestre, data: 2024-06-12 (F1)] } 
+{ 1° appello => [MISURE: 2° anno, 1° semestre, data: 2024-06-12 (F2)] & [CHIMICA GENERALE: 2° anno, 1° semestre, data: 2024-06-13 (F2)] } 
+{ 1° appello => [PROBLEMI INVERSI APPLICATI AL TELERILEVAMENTO: 3° anno, 2° semestre, data: 2024-06-12 (F3)] & [DISPOSITIVI PER LA TRASMISSIONE DELL'INFORMAZIONE: 3° anno, 2° semestre, data: 2024-06-13 (F3)] } 
+{ 1° appello => [PROBLEMI INVERSI APPLICATI AL TELERILEVAMENTO: 3° anno, 2° semestre, data: 2024-06-12 (F3)] & [FISICA TECNICA: 3° anno, 2° semestre, data: 2024-06-14 (F2)] } 
+{ 1° appello => [SISTEMI DI COMUNICAZIONE: 3° anno, 1° semestre, data: 2024-06-12 (F1)] & [FONDAMENTI DI HUMAN-COMPUTER INTERACTION: 3° anno, 1° semestre, data: 2024-06-14 (F1)] } 
+{ 1° appello => [DISPOSITIVI PER LA TRASMISSIONE DELL'INFORMAZIONE: 3° anno, 2° semestre, data: 2024-06-13 (F3)] & [FISICA TECNICA: 3° anno, 2° semestre, data: 2024-06-14 (F2)] } 
+{ 1° appello => [PROBABILITA' E STATISTICA PER L'INFORMATICA: 2° anno, 2° semestre, data: 2024-06-14 (F3)] & [INFORMAZIONE E STIMA (PER INGEGNERIA INFORMATICA): 2° anno, 2° semestre, data: 2024-06-15 (F1)] } 
+{ 1° appello => [BIOINFORMATICS ALGORITHMS: 3° anno, 2° semestre, data: 2024-06-17 (F2)] & [MECCANICA (PER ING. INFORMATICA): 3° anno, 2° semestre, data: 2024-06-18 (F2)] } 
+{ 1° appello => [BIOINFORMATICS ALGORITHMS: 3° anno, 2° semestre, data: 2024-06-17 (F2)] & [AUTOMAZIONE INDUSTRIALE: 3° anno, 2° semestre, data: 2024-06-19 (F2)] } 
+{ 1° appello => [BIOINFORMATICS ALGORITHMS: 3° anno, 2° semestre, data: 2024-06-17 (F2)] & [TECNOLOGIE INFORMATICHE PER IL WEB: 3° anno, 2° semestre, data: 2024-06-19 (F1)] } 
+{ 1° appello => [MECCANICA (PER ING. INFORMATICA): 3° anno, 2° semestre, data: 2024-06-18 (F2)] & [AUTOMAZIONE INDUSTRIALE: 3° anno, 2° semestre, data: 2024-06-19 (F2)] } 
+{ 1° appello => [MECCANICA (PER ING. INFORMATICA): 3° anno, 2° semestre, data: 2024-06-18 (F2)] & [TECNOLOGIE INFORMATICHE PER IL WEB: 3° anno, 2° semestre, data: 2024-06-19 (F1)] } 
+{ 1° appello => [AUTOMAZIONE INDUSTRIALE: 3° anno, 2° semestre, data: 2024-06-19 (F2)] & [TECNOLOGIE INFORMATICHE PER IL WEB: 3° anno, 2° semestre, data: 2024-06-19 (F1)] } 
+{ 1° appello => [SOFTWARE DEFINED NETWORKING: 3° anno, 2° semestre, data: 2024-06-24 (F1)] & [INTRODUZIONE ALLE TECNOLOGIE DI INTERCONNESSIONE: 3° anno, 2° semestre, data: 2024-06-25 (F1)] } 
+{ 1° appello => [INTRODUZIONE ALLE TECNOLOGIE DI INTERCONNESSIONE: 3° anno, 2° semestre, data: 2024-06-25 (F1)] & [SICUREZZA DELLE RETI: 3° anno, 2° semestre, data: 2024-06-27 (F2)] } 
+{ 1° appello => [FISICA TECNICA: 2° anno, 1° semestre, data: 2024-06-26 (F1)] & [ONDE ELETTROMAGNETICHE E MEZZI TRASMISSIVI: 2° anno, 1° semestre, data: 2024-06-27 (F3)] } 
+{ 1° appello => [SICUREZZA DELLE RETI: 3° anno, 2° semestre, data: 2024-06-27 (F2)] & [ECONOMIA E ORGANIZZAZIONE AZIENDALE (obbligatorio): 3° anno, 2° semestre, data: 2024-06-28 (F2)] } 
+{ 2° appello => [BASI DI DATI 1 (obbligatorio): 3° anno, 1° semestre, data: 2024-07-02 (F2)] & [FONDAMENTI DI ELABORAZIONE NUMERICA DEI SEGNALI: 3° anno, 1° semestre, data: 2024-07-02 (F3)] } 
+{ 2° appello => [LOGICA E ALGEBRA (obbligatorio): 2° anno, 1° semestre, data: 2024-07-08 (F3)] & [CHIMICA GENERALE: 2° anno, 1° semestre, data: 2024-07-06 (F1)] } 
+{ 2° appello => [OTTICA E IMMAGINI: 3° anno, 2° semestre, data: 2024-07-04 (F1)] & [DISPOSITIVI PER LA TRASMISSIONE DELL'INFORMAZIONE: 3° anno, 2° semestre, data: 2024-07-03 (F1)] } 
+{ 2° appello => [PROBLEMI INVERSI APPLICATI AL TELERILEVAMENTO: 3° anno, 2° semestre, data: 2024-07-12 (F2)] & [BIOINFORMATICS ALGORITHMS: 3° anno, 2° semestre, data: 2024-07-10 (F1)] } 
+{ 2° appello => [PROBLEMI INVERSI APPLICATI AL TELERILEVAMENTO: 3° anno, 2° semestre, data: 2024-07-12 (F2)] & [SOFTWARE DEFINED NETWORKING: 3° anno, 2° semestre, data: 2024-07-11 (F3)] } 
+{ 2° appello => [SISTEMI DI COMUNICAZIONE: 3° anno, 1° semestre, data: 2024-07-15 (F3)] & [RETI LOGICHE (obbligatorio): 3° anno, 1° semestre, data: 2024-07-17 (F2)] } 
+{ 2° appello => [FISICA TECNICA: 3° anno, 2° semestre, data: 2024-07-26 (F3)] & [SICUREZZA DELLE RETI: 3° anno, 2° semestre, data: 2024-07-25 (F2)] } 
+{ 2° appello => [BIOINFORMATICS ALGORITHMS: 3° anno, 2° semestre, data: 2024-07-10 (F1)] & [MECCANICA (PER ING. INFORMATICA): 3° anno, 2° semestre, data: 2024-07-08 (F2)] } 
+{ 2° appello => [BIOINFORMATICS ALGORITHMS: 3° anno, 2° semestre, data: 2024-07-10 (F1)] & [AUTOMAZIONE INDUSTRIALE: 3° anno, 2° semestre, data: 2024-07-09 (F3)] } 
+{ 2° appello => [BIOINFORMATICS ALGORITHMS: 3° anno, 2° semestre, data: 2024-07-10 (F1)] & [SOFTWARE DEFINED NETWORKING: 3° anno, 2° semestre, data: 2024-07-11 (F3)] } 
+{ 2° appello => [MECCANICA (PER ING. INFORMATICA): 3° anno, 2° semestre, data: 2024-07-08 (F2)] & [AUTOMAZIONE INDUSTRIALE: 3° anno, 2° semestre, data: 2024-07-09 (F3)] } 
+{ 2° appello => [ANALISI MATEMATICA 2 (obbligatorio): 2° anno, 1° semestre, data: 2024-07-23 (F3)] & [FISICA TECNICA: 2° anno, 1° semestre, data: 2024-07-24 (F3)] } 
+{ 2° appello => [ANALISI MATEMATICA 2 (obbligatorio): 2° anno, 1° semestre, data: 2024-07-23 (F3)] & [ONDE ELETTROMAGNETICHE E MEZZI TRASMISSIVI: 2° anno, 1° semestre, data: 2024-07-25 (F3)] } 
+{ 2° appello => [AUTOMAZIONE INDUSTRIALE: 3° anno, 2° semestre, data: 2024-07-09 (F3)] & [SOFTWARE DEFINED NETWORKING: 3° anno, 2° semestre, data: 2024-07-11 (F3)] } 
+{ 2° appello => [TECNOLOGIE INFORMATICHE PER IL WEB: 3° anno, 2° semestre, data: 2024-07-23 (F1)] & [INTRODUZIONE ALLE TECNOLOGIE DI INTERCONNESSIONE: 3° anno, 2° semestre, data: 2024-07-22 (F3)] } 
+{ 2° appello => [TECNOLOGIE INFORMATICHE PER IL WEB: 3° anno, 2° semestre, data: 2024-07-23 (F1)] & [SICUREZZA DELLE RETI: 3° anno, 2° semestre, data: 2024-07-25 (F2)] } 
+{ 2° appello => [FISICA TECNICA: 2° anno, 1° semestre, data: 2024-07-24 (F3)] & [ONDE ELETTROMAGNETICHE E MEZZI TRASMISSIVI: 2° anno, 1° semestre, data: 2024-07-25 (F3)] } 

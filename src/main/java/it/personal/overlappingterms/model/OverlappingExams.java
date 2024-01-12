@@ -1,70 +1,33 @@
 package it.personal.overlappingterms.model;
 
 public class OverlappingExams {
-    private String firstOverlappingCourse;
-    private boolean firstCourseMandatory;
-    private String secondOverlappingCourse;
-    private boolean secondCourseMandatory;
-    private long daysOfDistanceBetweenCalls;
 
-    private Integer year;
-    private boolean sameSemester;
+    private final OverlappingCourse firstOverlappingCourse;
+    private final OverlappingCourse secondOverlappingCourse;
+    private final int examCallWithOverlapping;
 
-    public String getFirstOverlappingCourse() {
+    public OverlappingExams(OverlappingCourse firstOverlappingCourse, OverlappingCourse secondOverlappingCourse, int examCallWithOverlapping) {
+        this.firstOverlappingCourse = firstOverlappingCourse;
+        this.secondOverlappingCourse = secondOverlappingCourse;
+        this.examCallWithOverlapping = examCallWithOverlapping;
+    }
+
+    public OverlappingCourse getFirstOverlappingCourse() {
         return firstOverlappingCourse;
     }
 
-    public boolean isFirstCourseMandatory() {
-        return firstCourseMandatory;
-    }
-
-    public String getSecondOverlappingCourse() {
+    public OverlappingCourse getSecondOverlappingCourse() {
         return secondOverlappingCourse;
     }
 
-    public boolean isSecondCourseMandatory() {
-        return secondCourseMandatory;
-    }
-
-    public long getDaysOfDistanceBetweenCalls() {
-        return daysOfDistanceBetweenCalls;
-    }
-
-    public Integer getYear() {
-        return year;
-    }
-
-    public boolean isSameSemester() {
-        return sameSemester;
-    }
-
-    public OverlappingExams(String firstOverlappingCourse,
-                            boolean firstCourseMandatory,
-                            String secondOverlappingCourse,
-                            boolean secondCourseMandatory,
-                            long daysOfDistanceBetweenCalls,
-                            Integer year,
-                            boolean sameSemester) {
-        this.firstOverlappingCourse = firstOverlappingCourse;
-        this.firstCourseMandatory = firstCourseMandatory;
-        this.secondOverlappingCourse = secondOverlappingCourse;
-        this.secondCourseMandatory = secondCourseMandatory;
-        this.daysOfDistanceBetweenCalls = daysOfDistanceBetweenCalls;
-        this.year = year;
-        this.sameSemester = sameSemester;
+    public int getExamCallWithOverlapping() {
+        return examCallWithOverlapping;
     }
 
     @Override
     public String toString() {
-        return "{ " +
-                firstOverlappingCourse +
-                (firstCourseMandatory ? " (mandatory)" : "") +
-                " & " +
-                secondOverlappingCourse +
-                (secondCourseMandatory ? " (mandatory)" : "") +
-                ": days of distance = " + daysOfDistanceBetweenCalls +
-                ", year = "  + year +
-                ", " + (sameSemester ? "Same semester" : "Different semesters") + " }";
-
+        return "{ " + examCallWithOverlapping + "° appello => " +
+                firstOverlappingCourse + " & " +
+                secondOverlappingCourse + " } ";
     }
 }

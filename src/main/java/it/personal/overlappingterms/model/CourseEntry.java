@@ -14,7 +14,7 @@ public class CourseEntry {
     private Integer courseYear;
     private final Integer courseSemester;
     private final boolean isMandatory;
-    private final List<LocalDate> examTermsDates;
+    private final List<ExamDate> examTermsDates;
 
     /**
      * Creates an entry for a course.
@@ -23,7 +23,7 @@ public class CourseEntry {
      * @param isMandatory true if the course is mandatory, false otherwise.
      * @param examTermsDates Dates for the exam calls.
      */
-    public CourseEntry (String courseName, Integer courseSemester, boolean isMandatory, List<LocalDate> examTermsDates) {
+    public CourseEntry (String courseName, Integer courseSemester, boolean isMandatory, List<ExamDate> examTermsDates) {
         this.courseName = courseName;
         this.courseSemester = courseSemester;
         this.isMandatory = isMandatory;
@@ -38,7 +38,7 @@ public class CourseEntry {
      * @param isMandatory true if the course is mandatory, false otherwise.
      * @param examTermsDates Dates for the exam calls.
      */
-    public CourseEntry(String courseName, Integer courseYear, Integer courseSemester, boolean isMandatory, List<LocalDate> examTermsDates) {
+    public CourseEntry(String courseName, Integer courseYear, Integer courseSemester, boolean isMandatory, List<ExamDate> examTermsDates) {
         this(courseName, courseSemester, isMandatory, examTermsDates);
         this.courseYear = courseYear;
     }
@@ -62,18 +62,16 @@ public class CourseEntry {
         return isMandatory;
     }
 
-    public List<LocalDate> getExamTermsDates() {
+    public List<ExamDate> getExamTermsDates() {
         return examTermsDates;
     }
 
     @Override
     public String toString() {
-        return "CourseEntry{" +
-                "courseName='" + courseName + '\'' +
-                ", courseYear=" + courseYear +
-                ", courseSemester=" + courseSemester +
-                ", isMandatory=" + isMandatory +
-                ", examTermsDates=" + examTermsDates +
-                '}';
+        return "[" + courseName +
+                (isMandatory ? " (obbligatorio)" : "") + ": " +
+                courseYear + "° anno, " +
+                courseSemester + "° semestre, " +
+                "date: " + examTermsDates + "]";
     }
 }

@@ -1,6 +1,5 @@
 package it.personal.overlappingterms.controller;
 
-import com.opencsv.CSVWriter;
 import it.personal.overlappingterms.model.OverlappingExams;
 
 import java.io.FileReader;

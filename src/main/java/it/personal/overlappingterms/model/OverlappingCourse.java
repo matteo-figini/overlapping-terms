@@ -1,33 +1,26 @@
 package it.personal.overlappingterms.model;
 
-import java.time.LocalDate;
 import java.util.List;
 
-/**
- * This class represents an entry of the table that represents,
- * for each course, the name of the course, its temporal location
- * (year & semester), if the course is mandatory or optional and
- * a set of dates that are the exam terms for the course.
- */
-public class CourseEntry {
+public class OverlappingCourse {
     private final String courseName;
     private Integer courseYear;
     private final Integer courseSemester;
     private final boolean isMandatory;
-    private final List<LocalDate> examTermsDates;
+    private final ExamDate examTermsDate;
 
     /**
      * Creates an entry for a course.
      * @param courseName Course name.
      * @param courseSemester Semester of the course.
      * @param isMandatory true if the course is mandatory, false otherwise.
-     * @param examTermsDates Dates for the exam calls.
+     * @param examTermsDate Dates for the exam calls.
      */
-    public CourseEntry (String courseName, Integer courseSemester, boolean isMandatory, List<LocalDate> examTermsDates) {
+    public OverlappingCourse (String courseName, Integer courseSemester, boolean isMandatory, ExamDate examTermsDate) {
         this.courseName = courseName;
         this.courseSemester = courseSemester;
         this.isMandatory = isMandatory;
-        this.examTermsDates = examTermsDates;
+        this.examTermsDate = examTermsDate;
     }
 
     /**
@@ -36,10 +29,10 @@ public class CourseEntry {
      * @param courseYear Year of the course.
      * @param courseSemester Semester of the course.
      * @param isMandatory true if the course is mandatory, false otherwise.
-     * @param examTermsDates Dates for the exam calls.
+     * @param examTermsDate Dates for the exam calls.
      */
-    public CourseEntry(String courseName, Integer courseYear, Integer courseSemester, boolean isMandatory, List<LocalDate> examTermsDates) {
-        this(courseName, courseSemester, isMandatory, examTermsDates);
+    public OverlappingCourse (String courseName, Integer courseYear, Integer courseSemester, boolean isMandatory, ExamDate examTermsDate) {
+        this(courseName, courseSemester, isMandatory, examTermsDate);
         this.courseYear = courseYear;
     }
 
@@ -62,18 +55,16 @@ public class CourseEntry {
         return isMandatory;
     }
 
-    public List<LocalDate> getExamTermsDates() {
-        return examTermsDates;
+    public ExamDate getExamTermsDates() {
+        return examTermsDate;
     }
 
     @Override
     public String toString() {
-        return "CourseEntry{" +
-                "courseName='" + courseName + '\'' +
-                ", courseYear=" + courseYear +
-                ", courseSemester=" + courseSemester +
-                ", isMandatory=" + isMandatory +
-                ", examTermsDates=" + examTermsDates +
-                '}';
+        return "[" + courseName +
+                (isMandatory ? " (obbligatorio)" : "") + ": " +
+                courseYear + "° anno, " +
+                courseSemester + "° semestre, " +
+                "data: " + examTermsDate + "]";
     }
 }

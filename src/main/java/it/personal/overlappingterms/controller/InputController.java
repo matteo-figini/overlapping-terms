@@ -6,6 +6,7 @@ import com.opencsv.CSVReader;
 import com.opencsv.CSVReaderBuilder;
 import com.opencsv.exceptions.CsvValidationException;
 import it.personal.overlappingterms.model.CourseEntry;
+import it.personal.overlappingterms.model.ExamDate;
 
 import java.io.FileReader;
 import java.io.IOException;
@@ -20,7 +21,7 @@ public class InputController {
     public static List<CourseEntry> readCourseEntriesFromCSV (boolean yearConsidered, int examTerms) {
         List<CourseEntry> courseEntryList = new ArrayList<>();
         // TODO: give the possibility to parametrize the path
-        String filePath = "C:\\Users\\matte\\Desktop\\exam_terms.csv";
+        String filePath = "exam_terms.csv";
         CSVReader csvReader = null;
 
         final String dateFormat = "dd/MM/yyyy";
@@ -30,7 +31,7 @@ public class InputController {
                 .withSeparator(';')
                 .withIgnoreQuotations(true)
                 .build();
-        int recordPrefixedLength = 3 + examTerms;
+        int recordPrefixedLength = 3 + examTerms * 2;
         if (yearConsidered) {
             recordPrefixedLength++;
         }
@@ -46,10 +47,11 @@ public class InputController {
                 if (record.length == recordPrefixedLength) {
                     // This is needed to avoid IndexOutOfBound
                     CourseEntry entry;
-                    List<LocalDate> examDates = new ArrayList<>();
+                    List<ExamDate> examDates = new ArrayList<>();
                     for (int i = (yearConsidered ? 4 : 3); i < record.length; i++) {
-                        LocalDate date = LocalDate.parse(record[i], formatter);
-                        examDates.add(date);
+                        LocalDate date = LocalDate.parse(record[i++], formatter);
+                        String timeSlot = record[i];
+                        examDates.add(new ExamDate(date, timeSlot));
                     }
 
                     if (yearConsidered) {
