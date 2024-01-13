@@ -1,10 +1,10 @@
 # OverlappingTerms
-This project is a personal project by Matteo Figini that aims to find possible overlapping exams on a given session during exam scheduling at Politecnico di Milano, specially designed for the Industrial and Information Engineering faculty. The program is a simple CLI (Command-Line Interface) program, written in Java language, which reads in input a CSV file of exam dates expressed in a certain format, and - chosen a proper level of overlap - returns all the possible overlaps both in a textual file and in the CLI.
+This project is a personal project by Matteo Figini that aims to find possible overlapping exams on a given session during exam scheduling at Politecnico di Milano, specially designed for the Industrial and Information Engineering School. The program is a simple CLI (Command-Line Interface) program, written in Java language, which reads in input a CSV file of exam dates expressed in a specific format, and - chosen a proper level of overlap - returns all the possible overlaps both in a textual file and in the CLI.
 
 ## Prerequisites
-First of all, to run the program you should have Java 11 installed on your computer. It should work also with later versions. If you have troubles in installing Java, you can follow the instructions at the following link: [Java Download Options](https://www.java.com/en/download/help/download_options.html).
+First of all, to run the program you should have Java 11 installed on your computer. It should work also with later versions. If you have trouble installing Java, you can follow the instructions at the following link: [Java Download Options](https://www.java.com/en/download/help/download_options.html).
 
-Once you have installed Java, download the file "OverlappingTerms.jar", under the /bin directory; afterwards, open the terminal window in the location in which the file "OverlappingTerms.jar" stands, then write and execute the following command:
+Once you have installed Java, download the file "OverlappingTerms.jar", under the /bin directory; afterwards, open the terminal window in the location in which the file "OverlappingTerms.jar" is located, then write and execute the following command:
 ```
 java -jar OverlappingTerms.jar
 ```
@@ -30,8 +30,11 @@ PROGETTAZIONE DI SISTEMI MECCANICI [VA2,VA5,VA6]
 - **n_CALL_SLOT** represents the slot for the previous date reported. 3 different values may be used to indicate the slot:
   - _F1_ stands for the first-morning slot (typically 08:00 - 11:30);
   - _F2_ stands for the late-morning slot (typically 11:30 - 15:00);
-  - _F3_ stands for the afternoon slot (typically 15:00 - 18:30); 
+  - _F3_ stands for the afternoon slot (typically 15:00 - 18:30);
+
 One particular exam may require more than one slot: in this case it is suggested to replicate the row as many times as the number of time slots interested, changing only the slot and keeping all other fields the same.
+
+You can find an example of an input CSV file under the main directory, in a file called _"exams_INF_LT.csv"_. __Remember: the CSV file must be located in the same directory of the executable JAR file!__
 
 ## Levels of overlap
 The program allows one to choose among different levels of overlap. The level of overlap is required via an integer number: the first level corresponds to "1", the second level to "2" and so on.
@@ -41,13 +44,13 @@ The program allows one to choose among different levels of overlap. The level of
 4. The __fourth level__ returns all and only the exams, mandatory or not, with different names, regardless of the year and the semester, that are scheduled with a distance in days between the first exam term and the second exam term lower or equal to a value specified by the user.
 
 The user is asked to provide the following information:
-- The name of the input CSV file: must end with ".csv" to recognize a CSV file;
+- The name of the input CSV file: **must end with ".csv"** to recognize a CSV file;
 - The number of exam terms considered: e.g. if you want to check overlaps for the June and July exam calls, meaning that for each row you express two dates and the corresponding time slots, you will insert 2;
 - The level of overlap desired: it is an integer number between 1 and 4 (see the previous point);
 - If needed, the parameter representing the maximum distance in days considered as "overlap".
 
 ### Considerations on the levels of overlap
-_WARNING: This paragraph is not strictly necessary for a basic comprehension of the program, but contains some logic and mathematical stuffs that better highlights the program execution._
+_WARNING: This paragraph is not strictly necessary for a basic comprehension of the program, but contains some logic and mathematical stuff that better highlights the program execution. You can safely skip this paragraph and go to the next one._
 
 ## Output file and considerations
 Once the program starts the computation, it searches for a list of overlapping exams based on the parameters passed as input. The outcome of the program is reported both on the console and in a file called "overlaps.txt", in the following format (Italian language):
@@ -60,4 +63,5 @@ with the following meaning:
 
 ## Author
 Matteo Figini
-For information and suggestions, please write at [matteo4.figini@mail.polimi.it](mailto:matteo4.figini@mail.polimi.it)
+
+For information and suggestions, please write to [matteo4.figini@mail.polimi.it](mailto:matteo4.figini@mail.polimi.it)
