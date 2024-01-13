@@ -14,14 +14,11 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
 
 public class InputController {
 
-    public static List<CourseEntry> readCourseEntriesFromCSV (boolean yearConsidered, int examTerms) {
+    public static List<CourseEntry> readCourseEntriesFromCSV (String filePath, boolean yearConsidered, int examTerms) {
         List<CourseEntry> courseEntryList = new ArrayList<>();
-        // TODO: give the possibility to parametrize the path
-        String filePath = "exam_terms.csv";
         CSVReader csvReader = null;
 
         final String dateFormat = "dd/MM/yyyy";
@@ -53,24 +50,25 @@ public class InputController {
                         String timeSlot = record[i];
                         examDates.add(new ExamDate(date, timeSlot));
                     }
-
                     if (yearConsidered) {
                         entry = new CourseEntry(
-                                    record[0],
-                                    Integer.parseInt(record[1]),
-                                    Integer.parseInt(record[2]),
-                                    (Objects.equals(record[3], "S")),
-                                    examDates);
+                                record[0],
+                                Integer.parseInt(record[1]),
+                                Integer.parseInt(record[2]),
+                                (record[3].equalsIgnoreCase("S")),
+                                examDates
+                        );
                     } else {
                         entry = new CourseEntry(
                                 record[0],
                                 Integer.parseInt(record[1]),
-                                (Objects.equals(record[2], "S")),
-                                examDates);
+                                (record[2].equalsIgnoreCase("S")),
+                                examDates
+                        );
                     }
                     courseEntryList.add(entry);
                 } else {
-                    System.out.println("Record out of length!");
+                    System.out.println("ERROR: Record out of length!");
                 }
             }
 
