@@ -4,9 +4,9 @@ This project is a personal project by Matteo Figini that aims to find possible o
 ## Prerequisites
 First of all, to run the program you should have Java 11 installed on your computer. It should work also with later versions. If you have troubles in installing Java, you can follow the instructions at the following link: [Java Download Options](https://www.java.com/en/download/help/download_options.html).
 
-Once you have installed Java, open the terminal window in the location in which the file "OverlappingTerms-{version}.jar" stands, then write and execute the following command:
+Once you have installed Java, download the file "OverlappingTerms.jar", under the /bin directory; afterwards, open the terminal window in the location in which the file "OverlappingTerms.jar" stands, then write and execute the following command:
 ```
-java -jar OverlappingTerms-1.0.jar
+java -jar OverlappingTerms.jar
 ```
 
 ## Input file: a CSV file
@@ -44,7 +44,7 @@ The user is asked to provide the following information:
 - The name of the input CSV file: must end with ".csv" to recognize a CSV file;
 - The number of exam terms considered: e.g. if you want to check overlaps for the June and July exam calls, meaning that for each row you express two dates and the corresponding time slots, you will insert 2;
 - The level of overlap desired: it is an integer number between 1 and 4 (see the previous point);
-- If needed, the parameter representing the maximum distance in days considered as "overlapping".
+- If needed, the parameter representing the maximum distance in days considered as "overlap".
 
 ### Considerations on the levels of overlap
 _WARNING: This paragraph is not strictly necessary for a basic comprehension of the program, but contains some logic and mathematical stuffs that better highlights the program execution._

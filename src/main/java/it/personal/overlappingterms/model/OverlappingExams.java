@@ -1,5 +1,7 @@
 package it.personal.overlappingterms.model;
 
+import java.time.LocalDate;
+
 public class OverlappingExams {
 
     private final OverlappingCourse firstOverlappingCourse;
@@ -23,6 +25,10 @@ public class OverlappingExams {
     public int getExamCallWithOverlapping() {
         return examCallWithOverlapping;
     }
+
+    public LocalDate getFirstExamDate () { return firstOverlappingCourse.getExamTermsDates().getExamDate(); }
+
+    public LocalDate getSecondExamDate () { return secondOverlappingCourse.getExamTermsDates().getExamDate(); }
 
     @Override
     public String toString() {

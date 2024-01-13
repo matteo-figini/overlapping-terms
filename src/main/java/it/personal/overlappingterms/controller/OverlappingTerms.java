@@ -4,10 +4,9 @@ import it.personal.overlappingterms.*;
 import it.personal.overlappingterms.model.CourseEntry;
 import it.personal.overlappingterms.model.OverlappingExams;
 
-import java.time.LocalDate;
-import java.util.*;
-
-import static java.time.temporal.ChronoUnit.DAYS;
+import java.util.Comparator;
+import java.util.List;
+import java.util.Scanner;
 
 public class OverlappingTerms {
     public static void main(String[] args) {
@@ -57,16 +56,20 @@ public class OverlappingTerms {
                 break;
             default:
                 System.out.println("Unable to consider the desired level of overlap: " + overlapLevel);
-                level = null;
         }
 
-        List<OverlappingExams> overlappingExamsList = new ArrayList<>();
+        List<OverlappingExams> overlappingExamsList;
         if (level != null) {
             overlappingExamsList = level.computeOverlappingExams(courseEntries, examTermsConsidered);
-            overlappingExamsList.sort(Comparator.comparing(OverlappingExams::getExamCallWithOverlapping));
+            overlappingExamsList.sort(Comparator.comparing(OverlappingExams::getExamCallWithOverlapping)
+                    .thenComparing(OverlappingExams::getFirstExamDate)
+                    .thenComparing(OverlappingExams::getSecondExamDate)
+            );
 
             // Print the list on a file and on console
-            OutputController.writeOverlappingExamsToFile("overlaps.txt", overlappingExamsList);
+            String reducedInputFileName = inputFileName.substring(0, inputFileName.length() - 4);
+            String outputFileName = "overlaps_lv" + overlapLevel + "_" + reducedInputFileName +  ".txt";
+            OutputController.writeOverlappingExamsToFile(outputFileName, overlappingExamsList);
 
             System.out.println();
 
@@ -75,6 +78,5 @@ public class OverlappingTerms {
                 System.out.println(entry);
             }
         }
-
     }
 }
