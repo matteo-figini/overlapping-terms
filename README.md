@@ -60,4 +60,4 @@ with the following meaning:
 
 ## Author
 Matteo Figini
-For information and suggestions, please write at [matteo4.figini@mail.polimi.it](matteo4.figini@mail.polimi.it)
+For information and suggestions, please write at [matteo4.figini@mail.polimi.it](mailto:matteo4.figini@mail.polimi.it)
