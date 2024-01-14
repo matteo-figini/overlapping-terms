@@ -8,6 +8,9 @@ Once you have installed Java, download the file "OverlappingTerms.jar", under th
 ```
 java -jar OverlappingTerms.jar
 ```
+When running the program, it is possible to specify also two command-line arguments:
+- _-h_ (extended version: _--help_): print a brief help menu at the begin of the program;
+- _-n_ (extended version: _--name_): print the final list with all overlapping exams ordered first by the exam names (in the default setting, the list is printed sorted by the "appello" and the exams date). This setting also allow to find whether there is a couple of exams overlapping in more than one exam call, so it may become useful to report this type of overlap.
 
 ## Input file: a CSV file
 As expressed in the program, the input file is a CSV file containing a set of rows, each expressing an exam term for a given course (e.g. Computer Science Eng. BSc, Computer Science Eng. MSc, Biomedical Engineering BSc...). Each row is formatted in the following way:
@@ -49,9 +52,6 @@ The user is asked to provide the following information:
 - The level of overlap desired: it is an integer number between 1 and 4 (see the previous point);
 - If needed, the parameter representing the maximum distance in days considered as "overlap".
 
-### Considerations on the levels of overlap
-_WARNING: This paragraph is not strictly necessary for a basic comprehension of the program, but contains some logic and mathematical stuff that better highlights the program execution. You can safely skip this paragraph and go to the next one._
-
 ## Output file and considerations
 Once the program starts the computation, it searches for a list of overlapping exams based on the parameters passed as input. The outcome of the program is reported both on the console and in a file called "overlaps.txt", in the following format (Italian language):
 ```
@@ -60,6 +60,10 @@ Once the program starts the computation, it searches for a list of overlapping e
 with the following meaning:
 - CALL is an integer number between 1 and the number of exam terms inserted, indicating in which exam call the problem arises;
 - FIRST_EXAM and SECOND_EXAM contain the information of, respectively, the first and the second overlapping exams, such as the name of the exams, the year, the semester, whether the exam is mandatory or not and finally the dates and the time slots in which the problem arises.
+
+If the parameters _-n_ or _--name_ were passed when starting the program, the final list is sorted by the name of the first exam and then the name of the second exam.
+
+Otherwise, in the default setting, the final list is sorted by the exam call, then the date of the first exam and then the date of the second exam.
 
 ## Author
 Matteo Figini

@@ -30,6 +30,10 @@ public class OverlappingExams {
 
     public LocalDate getSecondExamDate () { return secondOverlappingCourse.getExamTermsDates().getExamDate(); }
 
+    public String getFirstExamName () { return firstOverlappingCourse.getCourseName(); }
+
+    public String getSecondExamName () { return secondOverlappingCourse.getCourseName(); }
+
     @Override
     public String toString() {
         return "{ " + examCallWithOverlapping + "° appello => " +

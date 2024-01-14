@@ -9,12 +9,17 @@ import java.util.List;
 
 public class OutputController {
 
-    public static int writeOverlappingExamsToFile (String path, List<OverlappingExams> overlappingExamsList) {
+    public static int writeOverlappingExamsToFile (String path, List<OverlappingExams> overlappingExamsList, String repeatedOverlaps) {
         int linesWritten = 0;
         try (FileWriter writer = new FileWriter(path)) {
             for (OverlappingExams overlappingExams : overlappingExamsList) {
                 writer.write(overlappingExams.toString() + "\n");
                 linesWritten++;
+            }
+
+            if (repeatedOverlaps != null) {
+                writer.write("\n--------------------------------------------\n");
+                writer.write(repeatedOverlaps);
             }
             writer.close();
         } catch (IOException e) {

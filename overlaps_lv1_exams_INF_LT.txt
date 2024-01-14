@@ -1,0 +1,1 @@
+{ 1° appello => [LOGICA E ALGEBRA (obbligatorio): 2° anno, 1° semestre, data: 2024-06-06 (F3)] & [ARCHITETTURA DEI CALCOLATORI E SISTEMI OPERATIVI (obbligatorio): 2° anno, 1° semestre, data: 2024-06-08 (F1)] } 
